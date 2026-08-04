@@ -1,0 +1,14 @@
+{
+  "hsToolsmith": true,
+  "title": "supabase-telemetry-stream",
+  "pitch": "Typed ingestion and realtime aggregation utilities for IoT telemetry on Supabase/Postgres.",
+  "language": "typescript",
+  "category": "Integration",
+  "keyFeatures": [
+    "Zod-validated, typed telemetry event envelopes",
+    "Multi-tenant Postgres schema helpers (RLS-friendly)",
+    "Realtime subscriptions with backpressure-safe batching",
+    "Time-window rollups (avg/min/max/stddev) for charting"
+  ],
+  "targetUsers": "Node.js/Supabase developers building multi-tenant IoT monitoring dashboards with realtime charts."
+}
